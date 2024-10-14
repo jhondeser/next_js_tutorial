@@ -5,6 +5,7 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 
 import { lusitana } from '@/app/ui/fonts';
+
 import Image from 'next/image';
 
 export default function Page() {
@@ -44,7 +45,6 @@ export default function Page() {
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing mobile version"
           />
-
         </div>
       </div>
     </main>
